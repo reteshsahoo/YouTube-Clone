@@ -1,0 +1,32 @@
+.sidebar {
+  background-color: white;
+  width: 72px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; */
+  
+  position: fixed;
+  top: 56px;
+  bottom: 0;
+  z-index: 200;
+}
+
+.home {
+  width: 24px;
+}
+.explore {
+  width: 24px;
+}
+.subscription {
+  width: 24px;
+}
+.original {
+  width: 24px;
+}
+.music {
+  width: 24px;
+}
+.library {
+  width: 24px;
+}

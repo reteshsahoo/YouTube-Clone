@@ -1,0 +1,98 @@
+.header {
+  display: flex;
+  height: 56px;
+  background-color: white;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.left-section {
+  width: 220px;
+  display: flex;
+}
+.menu {
+  width: 24px;
+  padding: 0px 25px;
+}
+.logo {
+  width: 90px;
+}
+
+.middle-section {
+  flex: 1;
+  max-width: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search {
+  flex: 1;
+  min-width: 0;
+  height: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-left: 12px;
+  box-shadow:inset 1px 1px 5px rgb(238, 238, 238);
+}
+.search {
+  width: 65px;
+  height: 40px;
+  border: 1px solid rgb(199, 196, 196);
+  margin-left: -1px;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.voice-search {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 100%;
+  margin-left: 8px;
+  margin-right: 10px;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search img {
+  width: 24px;
+}
+.voice-search img {
+  width: 22px;
+}
+
+
+
+
+.right-section {
+  width: 220px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 8px;
+  
+}
+.upload {
+  width: 24px;
+}
+.apps {
+  width: 24px;
+}
+.notifications {
+  width: 25px;
+}
+.my-channel {
+  width: 30px;
+  border-radius: 100%;
+}

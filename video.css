@@ -1,0 +1,56 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 24px;
+  margin-top: 81px;
+  margin-left: 100px;
+}
+
+.thumbnail-photo {
+  width: 100%;
+}
+
+.channel-photo {
+  width: 40px;
+  border-radius: 100%;
+}
+
+.video-desc {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  margin-top: 10px;
+}
+
+.cha-desc {
+  margin-left: 10px;
+}
+
+.desc p {
+  margin: 0px 0px 12px 0px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.name p,
+.stat p {
+  margin: 0px 0px 6px 0px;
+  font-size: 12px;
+  color: gray;
+}
+
+.video-container {
+  position: relative;
+}
+
+.time {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 2px 5px;
+  font-size: 14px;
+  font-weight: lighter;
+  position: absolute;
+  right: 5px;
+  bottom: 12px;
+}
